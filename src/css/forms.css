@@ -1,0 +1,49 @@
+/**/
+
+.fx-forms-buy-item {
+  position: relative;
+  padding: 0 16px 16px 16px;
+  border-bottom: 1px solid #e9e9e9;
+  margin-bottom: 20px;
+}
+.fx-forms-close{
+	position: absolute;
+	top:-5px;
+	right: 5px;
+	color:#d83212;
+	cursor: pointer;
+  transition: color 300ms linear;
+}
+.fx-forms-close:hover{
+	color:#9B210A;
+}
+.fx-forms-item {
+	color:#d83212;
+	font-size: 20px;
+	margin-bottom: 35px;
+}
+/*---------------------*/
+
+#fx-form-input{
+	display:none;
+
+}
+.fx-form-input-lable{
+	display: block;
+	cursor:pointer;
+	background-color:#e2f3f6;
+	border-radius:5px;
+	padding-top:9px;
+  padding-bottom:9px;
+	color:#4f4f4f;
+  font-weight:bold;
+	text-align: center;
+  transition: background-color 300ms linear;
+  
+}
+.fx-form-input-lable:hover{
+	background-color:#d4e6e9;
+}
+.fx-form-input-lable:active{
+	background-color:#c6e6eb;
+}

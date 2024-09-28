@@ -1,0 +1,64 @@
+.fx-gradient-background {
+	background-image: linear-gradient(to top, #ffffff, #d4e6e9);
+	min-height: 530px;
+}
+
+.fx-gradient-background-left-hand {
+	background: linear-gradient(to top, #ffffff, #d4e6e9);
+	min-height: 530px;
+}
+
+.fx-gradient-background-right-hand {
+	background: linear-gradient(to top, #ffffff, #d4e6e9);
+	min-height: 530px;
+}
+
+.fx-background-001 {
+	background: linear-gradient(to left, rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%), url(../images/001.jpg) no-repeat center center;
+}
+
+.fx-background-002 {
+	background: linear-gradient(to right, rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%), url(../images/002.jpg) no-repeat center center;
+}
+
+.fx-background-white-half {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.fx-image-with-description-left {
+	padding-top: 50px;
+}
+
+.fx-image-with-description-right {
+	padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+.fx-gradient-background-left-hand {
+		background: url(../images/hand-left.png) no-repeat right center, linear-gradient(to top, #ffffff, #d4e6e9);
+	}
+
+	.fx-gradient-background-right-hand {
+		background: url(../images/hand-right.png) no-repeat left center, linear-gradient(to top, #ffffff, #d4e6e9);
+	}
+
+	.fx-background-001 {
+		background: linear-gradient(to left, rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 50%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%), url(../images/001.jpg) no-repeat center center;
+	}
+
+	.fx-background-002 {
+		background: linear-gradient(to right, rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 50%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%), url(../images/002.jpg) no-repeat center center;
+	}
+
+	.fx-image-with-description-left {
+		padding-top: 50px;
+		padding-right: 80px;
+		padding-bottom: 70px;
+	}
+
+	.fx-image-with-description-right {
+		padding-top: 50px;
+		padding-left: 80px;
+		padding-bottom: 70px;
+	}
+}

@@ -1,0 +1,11 @@
+.fx-news-page-img {
+	background-image: url(../images/backg-empty.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 230px;
+}
+@media (min-width: 992px) {
+	.fx-news-page-img {
+		height: 430px;
+	}
+}

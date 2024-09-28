@@ -1,0 +1,12 @@
+.fx-conpany-bg {
+	display: block;
+	background:url(../images/002.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 380px;
+}
+@media (min-width: 992px) {
+	.fx-conpany-bg{
+		height: 580px;
+	}
+}

@@ -1,0 +1,18 @@
+DirectoryIndex index.php
+
+RewriteEngine on
+
+AddDefaultCharset utf-8
+AddCharset utf-8 .html .css .js .xml .json .rss .atom
+
+# html, txt, css, js, json, xml, htc:
+AddOutputFilterByType DEFLATE text/html text/plain text/css application/json
+AddOutputFilterByType DEFLATE text/javascript application/javascript application/x-javascript
+AddOutputFilterByType DEFLATE text/xml application/xml text/x-component
+
+#RewriteCond %{REQUEST_FILENAME} !.json
+
+#RewriteRule ^public/(.*)$ public/$1 [L,QSA]
+#RewriteRule ^favicon.ico$ favicon.ico [L]
+#
+#RewriteRule ^(.*)$ index.php?pathId=$1 [L,QSA]

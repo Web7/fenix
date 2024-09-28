@@ -1,0 +1,86 @@
+.fx-product-item {
+	padding: 15px;
+	position: relative;
+	margin-bottom: 45px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+	transition: box-shadow 300ms linear;
+	min-height: 560px;
+}
+@media (min-width: 992px) {
+	.fx-product-item{
+		padding: 25px;
+	}
+}
+.fx-product-sale {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	width: 66px;
+	height: 66px;
+	background: url(../images/skidks.svg) no-repeat 0 0;
+	opacity: 0;
+	transition: opacity 300ms linear;
+}
+
+.fx-product-item .h2 {
+	margin-bottom: 10px;
+}
+
+.fx-product-image {
+	width: 100%;
+	height: 325px;
+	margin: 0 auto;
+	background: no-repeat top center;
+	background-size: contain;
+	transition: height 300ms linear, width 300ms linear;
+}
+
+.fx-product-description {
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 0;
+	transition: height 300ms linear;
+}
+
+.fx-product-price-container {
+	position: absolute;
+	bottom: 35px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.fx-product-price-container i{
+	font-size: 20px;
+
+}
+.fx-product-price {
+	font-family: 'open_sanssemibold';
+	font-size: 24px;
+	color: #d83212;
+}
+
+.fx-product-price s {
+	color: #9b9b9b;
+	font-size: 20px;
+	padding-right: 30px;
+}
+
+.btn-buy {
+	margin-top: 5px;
+	padding: 10px 56px;
+}
+
+.fx-product-item:hover {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.fx-product-item:hover .fx-product-sale {
+	opacity: 1;
+}
+.fx-product-item:hover .fx-product-description {
+	height: 80px;
+}
+
+.fx-product-item:hover .fx-product-image {
+	height: 270px;
+}

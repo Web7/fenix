@@ -1,0 +1,35 @@
+.fx-faq-container a{
+	color:#4f4f4f ;
+	display: block;
+}
+.fx-faq-answer-item div{
+	position: static;
+}
+@media (min-width: 992px) {
+
+.fx-faq-container a:after {
+	 content: "";
+	 display: block;
+	 height: 1px;
+	 background-color: #e9e9e9;
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+	}
+.fx-faq-container a:last-child:after{
+	 content: "";
+ 	display: none;
+	}
+.fx-faq-answer-item div:after{
+	 content: "";
+	 display: block;
+	 width: calc(100% - 30px);
+	 height: 1px;
+	 background-color: #e9e9e9;
+	 position: absolute;
+	 left:15px;
+}
+.fx-faq-answer-item:last-child div:after{
+	content: "";
+ 	display: none;
+}
+}

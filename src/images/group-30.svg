@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="175px" height="175px" viewBox="0 0 175 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>34719ABC-F522-4057-90EF-DAF1173E3258</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 177 163 177 163 0 0 0"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Partners">
+            <g id="Group-30" transform="translate(7.000000, 3.000000)">
+                <path d="M15.0776052,162 C8.98464793,162 4,156.938088 4,150.751417 L4,143.238702 L4,89.2489112 C4,83.0622395 8.98464793,78 15.0776052,78 L133.922072,78 C140.015029,78 145,83.0622395 145,89.2489112" id="Stroke-1" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M145,105 L145,150.794626 C145,156.95768 140.0043,162 133.898553,162 L32,162" id="Stroke-3" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M86,120 C86,111.715789 92.7157892,105 101,105" id="Stroke-5" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M113,126 C111.73613,128.555716 109.622099,130.663386 107,132" id="Stroke-7" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M100,148 C84.5358326,148 72,135.239984 72,119.5 C72,103.760016 84.5358326,91 100,91 C115.463844,91 128,103.760016 128,119.5 C128,135.239984 115.463844,148 100,148 Z" id="Stroke-9" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M32,93 L32,95" id="Stroke-11" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M32,109 L32,159" id="Stroke-13" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M18,76 L18,75.8491386 C18,68.2321124 24.0750718,62 31.4998405,62 C38.9249282,62 45,68.2321124 45,75.8491386 L45,76" id="Stroke-15" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-18"></g>
+                <polygon id="Stroke-17" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="91 78 111 78 111 61 91 61"></polygon>
+                <polygon id="Stroke-19" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="80 61 120 61 120 44 80 44"></polygon>
+                <path d="M100,31.2291667 L100,4.1875" id="Stroke-20" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M161,51 L134,51" id="Stroke-21" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M67,51 L40,51" id="Stroke-22" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M126,31 L137,20" id="Stroke-23" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M77,31 L66,20" id="Stroke-24" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M100,77.9375 L100,91.4583333" id="Stroke-25" stroke="#D4E6E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

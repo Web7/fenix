@@ -1,0 +1,47 @@
+.fx-advantages-content-item{
+	padding-top: 30px;
+	padding-bottom: 65px;
+	margin-bottom: 15px;
+}
+.fx-advantages-content {
+	padding-bottom: 35px;
+}
+.fx-advantages-item-bg{
+	width: 100px;
+	height: 100px;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.fx-advantages-item-img1{
+	background-image: url(../images/advantages-1.svg);
+
+}
+.fx-advantages-item-img2{
+	background-image: url(../images/advantages-2.svg);
+
+}
+.fx-advantages-item-img3{
+	background-image: url(../images/advantages-3.svg);
+
+}
+.fx-advantages-item-img4{
+	background-image: url(../images/advantages-4.svg);
+
+}
+.fx-advantages-item-img5{
+	background-image: url(../images/advantages-5.svg);
+
+}
+.fx-advantages-item-img6{
+	background-image: url(../images/advantages-6.svg);
+
+}
+.fx-advantages-item-img7{
+	background-image: url(../images/advantages-7.svg);
+
+}
+.fx-advantages-item-img8{
+	background-image: url(../images/advantages-8.svg);
+
+}
