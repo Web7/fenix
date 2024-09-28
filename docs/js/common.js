@@ -17,19 +17,13 @@
 			});
 		}
 	});
-})();
 
-(function(){
-	$(document).ready (function(){
+	$(function(){
 		$('.tool').tooltip();
-	})
-})();
+	});
 
-(function(){
-$(document).ready( function() {
-    $("#fx-form-input").change(function(){
-         var filename = $(this).val().replace(/.*\\/, "");
-         $("#fx-form-name").val(filename);
-    });
-});
+	$(document).on('change', '#fx-form-input', function() {
+		var filename = $(this).val().replace(/.*\\/, "");
+		$("#fx-form-name").val(filename);
+	});
 })();
